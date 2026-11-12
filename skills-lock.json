@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "commit": {
+      "source": "rmsaitam/skill-git-conventions",
+      "sourceType": "github",
+      "skillPath": "skills/commit/SKILL.md",
+      "computedHash": "54fbbd5339e2340d0f8e53c16029e2e47b3f03b0eea0329d9a8d565f6dfff6e8"
+    }
+  }
+}

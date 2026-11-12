@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" role="img" aria-label="Git Conventions">
+  <rect width="800" height="240" rx="32" fill="#1F883D"/>
+  <path d="M120 40v160" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="120" cy="56" r="20" fill="#1F883D" stroke="#FFFFFF" stroke-width="12"/>
+  <circle cx="120" cy="120" r="20" fill="#1F883D" stroke="#FFFFFF" stroke-width="12"/>
+  <circle cx="120" cy="184" r="20" fill="#1F883D" stroke="#FFFFFF" stroke-width="12"/>
+  <path d="M140 56h44c14 0 24 10 24 24v40" fill="none" stroke="#B7F0C4" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="208" cy="144" r="13" fill="#B7F0C4"/>
+  <text x="256" y="118" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="700">Git Conventions</text>
+  <text x="258" y="158" fill="#C9F2D3" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="500">Conventional Commits</text>
+</svg>
