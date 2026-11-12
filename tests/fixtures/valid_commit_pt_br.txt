@@ -1,0 +1,5 @@
+feat(login): implementa autenticação via OAuth2
+
+Adiciona o fluxo de autorização com PKCE e atualiza a documentação de login.
+
+Refs: PROJ-123

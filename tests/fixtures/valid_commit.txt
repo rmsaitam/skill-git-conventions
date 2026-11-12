@@ -1,0 +1,6 @@
+fix(auth): reject tokens without an expiry claim
+
+Tokens issued before v2 did not include the exp claim. The handler accepted
+them until the signature check, which returned a 500 instead of a 401.
+
+Refs: PROJ-482

@@ -1,0 +1,14 @@
+{
+  "language": "en",
+  "types": ["feat", "fix", "docs", "style", "refactor", "perf", "test", "build", "ci", "chore", "revert"],
+  "scopes": ["auth", "api", "ui", "db", "ci", "deps"],
+  "maxHeaderLength": 72,
+  "hardHeaderLength": 80,
+  "ticket": {
+    "provider": "jira",
+    "pattern": "[A-Z][A-Z0-9]+-\\d+",
+    "required": true,
+    "placement": "footer",
+    "keyword": "Refs"
+  }
+}
