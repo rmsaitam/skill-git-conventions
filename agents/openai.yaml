@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Conventions"
+  short_description: "Generate a Conventional Commits message from a diff"
+  default_prompt: "Use $commit to generate a Conventional Commits message from the current diff."

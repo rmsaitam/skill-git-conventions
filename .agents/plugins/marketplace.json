@@ -1,0 +1,21 @@
+{
+  "name": "git-conventions",
+  "interface": {
+    "displayName": "Git Conventions"
+  },
+  "plugins": [
+    {
+      "name": "git-conventions",
+      "description": "Generates Conventional Commits messages from a git diff or change description, with optional ticket and Commitlint rules.",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

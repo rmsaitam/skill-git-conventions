@@ -1,0 +1,46 @@
+{
+  "name": "git-conventions",
+  "version": "0.1.0",
+  "description": "Generates Conventional Commits messages from a git diff or change description, with optional ticket and Commitlint rules.",
+  "author": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-git-conventions"
+  },
+  "homepage": "https://github.com/rmsaitam/skill-git-conventions",
+  "repository": "https://github.com/rmsaitam/skill-git-conventions",
+  "license": "MIT",
+  "keywords": [
+    "conventional-commits",
+    "git",
+    "commit-message",
+    "commitlint",
+    "jira",
+    "linear",
+    "github",
+    "gitlab",
+    "changelog"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Git Conventions",
+    "shortDescription": "Generate a Conventional Commits message",
+    "longDescription": "Generate a Conventional Commits v1.0.0 message from a git diff or a change description. The skill classifies the change, picks the type and scope, resolves ticket references for Jira, Linear, GitHub, or GitLab, detects breaking changes, and validates the result with the bundled validator and optional Commitlint. It returns only the commit block and never stages or commits unless the user asks.",
+    "developerName": "Reginaldo (rmsaitam)",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Command"
+    ],
+    "websiteURL": "https://github.com/rmsaitam/skill-git-conventions",
+    "defaultPrompt": [
+      "Generate a commit message for the staged changes",
+      "Turn this change description into a Conventional Commit",
+      "Validate this commit message against Conventional Commits"
+    ],
+    "brandColor": "#1F883D",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
+  }
+}

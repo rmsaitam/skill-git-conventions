@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "git-conventions",
+  "description": "Generates Conventional Commits messages from a git diff or change description, with optional ticket and Commitlint rules."
+}

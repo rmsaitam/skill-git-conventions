@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "git-conventions",
+  "description": "Conventional Commits skill for AI coding agents.",
+  "owner": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-git-conventions"
+  },
+  "plugins": [
+    {
+      "name": "git-conventions",
+      "description": "Generates Conventional Commits messages from a git diff or change description, with optional ticket and Commitlint rules.",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}

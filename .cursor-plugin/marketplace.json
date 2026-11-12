@@ -1,0 +1,16 @@
+{
+  "name": "git-conventions",
+  "owner": {
+    "name": "Reginaldo (rmsaitam)"
+  },
+  "metadata": {
+    "description": "Conventional Commits skill for AI coding agents."
+  },
+  "plugins": [
+    {
+      "name": "git-conventions",
+      "source": ".",
+      "description": "Generates Conventional Commits messages from a git diff or change description, with optional ticket and Commitlint rules."
+    }
+  ]
+}

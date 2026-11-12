@@ -1,0 +1,23 @@
+{
+  "name": "git-conventions",
+  "version": "0.1.0",
+  "description": "Generates Conventional Commits messages from a git diff or change description, with optional ticket and Commitlint rules.",
+  "author": {
+    "name": "Reginaldo (rmsaitam)",
+    "url": "https://github.com/rmsaitam/skill-git-conventions"
+  },
+  "homepage": "https://github.com/rmsaitam/skill-git-conventions",
+  "repository": "https://github.com/rmsaitam/skill-git-conventions",
+  "license": "MIT",
+  "keywords": [
+    "conventional-commits",
+    "git",
+    "commit-message",
+    "commitlint",
+    "jira",
+    "linear",
+    "github",
+    "gitlab",
+    "changelog"
+  ]
+}
