@@ -72,6 +72,18 @@ Do not use this skill for:
 - a full code review with findings and severity;
 - generating a message for a diff the user did not intend to commit.
 
+## Git worktrees
+
+The skill operates only inside the current Git worktree. It reads the diff,
+validates the message, and may create the commit in that worktree, but it does
+not create, switch, list, lock, remove, or prune worktrees. Use `git worktree`
+yourself before invoking the skill.
+
+Run the skill from the worktree root so the validator can find
+`.git-conventions.json` and the Commitlint configuration. If it must run from a
+subdirectory, pass `--root "$(git rev-parse --show-toplevel)"` or
+`--config <path>`.
+
 ## Non-negotiable rules
 
 - Return only the commit block by default. No greeting, explanation, quote, or
